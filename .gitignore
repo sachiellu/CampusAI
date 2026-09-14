@@ -1,0 +1,14 @@
+node_modules/
+dist/
+bin/
+obj/
+.vs/
+*.user
+.env
+.DS_Store
+appsettings.Local.json
+**/secrets.json
+# user-secrets 存在使用者目錄，不進 repo；勿把 sk- 金鑰寫進任何追蹤檔
+campusai.db
+campusai.db-*
+*.db
