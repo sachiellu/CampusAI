@@ -18,4 +18,4 @@ React 對話
 
 面試 Demo：開 MCP → API → 前端 → 校園問答 → 執行紀錄應見 `rag_retrieve`。
 
-最新簡報：`CampusAI-MCP-Deck-v5.pptx`（v3 留存：`CampusAI-MCP-Deck-v3-saved.pptx`）
+簡報：`CampusAI-TechReport-cream.pptx`（另留 v2／v3：`CampusAI-MCP-Deck-v2.pptx`、`CampusAI-MCP-Deck-v3.pptx`、`CampusAI-MCP-Deck-v3-saved.pptx`）

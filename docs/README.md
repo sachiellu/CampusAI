@@ -56,5 +56,6 @@ Demo 密碼：`Passw0rd!`
 | [DATABASE.md](./DATABASE.md) | SQL 資料表、SSMS 連線 |
 | [MCP.md](./MCP.md) | MCP Client／Server（考題規格） |
 | [SECRETS.md](./SECRETS.md) | LLM 金鑰注入（本機 User Secrets） |
-| **CampusAI-MCP-Deck-v3-saved.pptx** | 已留存的 v3 |
-| **CampusAI-MCP-Deck-v5.pptx** | 目前版：白話寫法＋文字／圖表混排 |
+| **CampusAI-MCP-Deck-v2.pptx** | 簡報 v2 |
+| **CampusAI-MCP-Deck-v3.pptx** / **v3-saved** | 簡報 v3 |
+| **CampusAI-TechReport-cream.pptx** | 目前版（米白／規格與架構） |
