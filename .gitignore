@@ -12,3 +12,5 @@ appsettings.Local.json
 campusai.db
 campusai.db-*
 *.db
+~$*
+*.tmp
