@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw
 ROOT = r"C:\C_projects\CampusAI-Agent"
 ASSETS = os.path.join(ROOT, "docs", "assets")
 OUT = os.path.join(ROOT, "docs", "CampusAI-TechReport.pptx")
-OUT_FALLBACK = os.path.join(ROOT, "docs", "CampusAI-TechReport-cream.pptx")
+OUT_FALLBACK = os.path.join(ROOT, "docs", "CampusAI-TechReport-locked.pptx")
 BG = os.path.join(ASSETS, "slide-bg-campus-plain.png")
 
 SW, SH = 13.333, 7.5

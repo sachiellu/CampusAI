@@ -58,4 +58,4 @@ Demo 密碼：`Passw0rd!`
 | [SECRETS.md](./SECRETS.md) | LLM 金鑰注入（本機 User Secrets） |
 | **CampusAI-MCP-Deck-v2.pptx** | 簡報 v2 |
 | **CampusAI-MCP-Deck-v3.pptx** / **v3-saved** | 簡報 v3 |
-| **CampusAI-TechReport-cream.pptx** | 目前版（米白／規格與架構） |
+| **CampusAI-TechReport.pptx** | 目前版（米白／規格與架構） |
