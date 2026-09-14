@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw
 ROOT = r"C:\C_projects\CampusAI-Agent"
 ASSETS = os.path.join(ROOT, "docs", "assets")
 OUT = os.path.join(ROOT, "docs", "CampusAI-TechReport.pptx")
+OUT_FALLBACK = os.path.join(ROOT, "docs", "CampusAI-TechReport-cream.pptx")
 BG = os.path.join(ASSETS, "slide-bg-campus-plain.png")
 
 SW, SH = 13.333, 7.5
@@ -376,8 +377,12 @@ def main():
     tb(s, 2.3, 4.1, 8.7, 0.4, ["報告人：呂紹瑜"], size=14, bold=True, color=INK, align=PP_ALIGN.CENTER)
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    prs.save(OUT)
-    print("saved", OUT)
+    try:
+        prs.save(OUT)
+        print("saved", OUT)
+    except PermissionError:
+        prs.save(OUT_FALLBACK)
+        print("locked, saved", OUT_FALLBACK)
 
 
 if __name__ == "__main__":
